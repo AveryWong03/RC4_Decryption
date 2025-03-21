@@ -1,0 +1,399 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Intel and sold by Intel or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "06/15/2024 16:54:05"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          fsm_mem
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module fsm_mem_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg [7:0] address_1;
+reg [7:0] address_2;
+reg [7:0] address_3;
+reg clk;
+reg [7:0] data_1;
+reg [7:0] data_2;
+reg [7:0] data_3;
+reg [7:0] q_s;
+reg request_1;
+reg request_2;
+reg request_3;
+reg wrt_2;
+reg wrt_3;
+// wires                                               
+wire [7:0] address_s;
+wire [7:0] data_2_out;
+wire [7:0] data_3_out;
+wire [7:0] data_s;
+wire finished_1;
+wire finished_2;
+wire finished_3;
+wire wren_s;
+
+// assign statements (if any)                          
+fsm_mem i1 (
+// port map - connection between master ports and signals/registers   
+	.address_1(address_1),
+	.address_2(address_2),
+	.address_3(address_3),
+	.address_s(address_s),
+	.clk(clk),
+	.data_1(data_1),
+	.data_2(data_2),
+	.data_2_out(data_2_out),
+	.data_3(data_3),
+	.data_3_out(data_3_out),
+	.data_s(data_s),
+	.finished_1(finished_1),
+	.finished_2(finished_2),
+	.finished_3(finished_3),
+	.q_s(q_s),
+	.request_1(request_1),
+	.request_2(request_2),
+	.request_3(request_3),
+	.wren_s(wren_s),
+	.wrt_2(wrt_2),
+	.wrt_3(wrt_3)
+);
+initial 
+begin 
+#480000 $finish;
+end 
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #10000 1'b1;
+	#10000;
+end 
+
+// request_1
+initial
+begin
+	request_1 = 1'b1;
+end 
+
+// request_2
+initial
+begin
+	request_2 = 1'b1;
+end 
+// address_1[ 7 ]
+initial
+begin
+	address_1[7] = 1'b0;
+end 
+// address_1[ 6 ]
+initial
+begin
+	address_1[6] = 1'b0;
+end 
+// address_1[ 5 ]
+initial
+begin
+	address_1[5] = 1'b0;
+end 
+// address_1[ 4 ]
+initial
+begin
+	address_1[4] = 1'b0;
+end 
+// address_1[ 3 ]
+initial
+begin
+	address_1[3] = 1'b0;
+end 
+// address_1[ 2 ]
+initial
+begin
+	address_1[2] = 1'b0;
+end 
+// address_1[ 1 ]
+initial
+begin
+	address_1[1] = 1'b0;
+end 
+// address_1[ 0 ]
+initial
+begin
+	address_1[0] = 1'b1;
+end 
+// address_2[ 7 ]
+initial
+begin
+	address_2[7] = 1'b0;
+end 
+// address_2[ 6 ]
+initial
+begin
+	address_2[6] = 1'b0;
+end 
+// address_2[ 5 ]
+initial
+begin
+	address_2[5] = 1'b0;
+end 
+// address_2[ 4 ]
+initial
+begin
+	address_2[4] = 1'b0;
+end 
+// address_2[ 3 ]
+initial
+begin
+	address_2[3] = 1'b0;
+end 
+// address_2[ 2 ]
+initial
+begin
+	address_2[2] = 1'b0;
+end 
+// address_2[ 1 ]
+initial
+begin
+	address_2[1] = 1'b1;
+end 
+// address_2[ 0 ]
+initial
+begin
+	address_2[0] = 1'b0;
+end 
+
+// wrt_2
+initial
+begin
+	wrt_2 = 1'b0;
+	wrt_2 = #320000 1'b1;
+end 
+// q_s[ 7 ]
+initial
+begin
+	q_s[7] = 1'b0;
+end 
+// q_s[ 6 ]
+initial
+begin
+	q_s[6] = 1'b0;
+end 
+// q_s[ 5 ]
+initial
+begin
+	q_s[5] = 1'b0;
+end 
+// q_s[ 4 ]
+initial
+begin
+	q_s[4] = 1'b0;
+end 
+// q_s[ 3 ]
+initial
+begin
+	q_s[3] = 1'b0;
+end 
+// q_s[ 2 ]
+initial
+begin
+	q_s[2] = 1'b0;
+end 
+// q_s[ 1 ]
+initial
+begin
+	q_s[1] = 1'b1;
+end 
+// q_s[ 0 ]
+initial
+begin
+	q_s[0] = 1'b1;
+end 
+// data_1[ 7 ]
+initial
+begin
+	data_1[7] = 1'b0;
+end 
+// data_1[ 6 ]
+initial
+begin
+	data_1[6] = 1'b0;
+end 
+// data_1[ 5 ]
+initial
+begin
+	data_1[5] = 1'b0;
+end 
+// data_1[ 4 ]
+initial
+begin
+	data_1[4] = 1'b0;
+end 
+// data_1[ 3 ]
+initial
+begin
+	data_1[3] = 1'b0;
+end 
+// data_1[ 2 ]
+initial
+begin
+	data_1[2] = 1'b1;
+end 
+// data_1[ 1 ]
+initial
+begin
+	data_1[1] = 1'b0;
+end 
+// data_1[ 0 ]
+initial
+begin
+	data_1[0] = 1'b0;
+end 
+// data_2[ 7 ]
+initial
+begin
+	data_2[7] = 1'b0;
+end 
+// data_2[ 6 ]
+initial
+begin
+	data_2[6] = 1'b0;
+end 
+// data_2[ 5 ]
+initial
+begin
+	data_2[5] = 1'b0;
+end 
+// data_2[ 4 ]
+initial
+begin
+	data_2[4] = 1'b0;
+end 
+// data_2[ 3 ]
+initial
+begin
+	data_2[3] = 1'b0;
+end 
+// data_2[ 2 ]
+initial
+begin
+	data_2[2] = 1'b1;
+end 
+// data_2[ 1 ]
+initial
+begin
+	data_2[1] = 1'b0;
+end 
+// data_2[ 0 ]
+initial
+begin
+	data_2[0] = 1'b1;
+end 
+// address_3[ 7 ]
+initial
+begin
+	address_3[7] = 1'b0;
+end 
+// address_3[ 6 ]
+initial
+begin
+	address_3[6] = 1'b0;
+end 
+// address_3[ 5 ]
+initial
+begin
+	address_3[5] = 1'b0;
+end 
+// address_3[ 4 ]
+initial
+begin
+	address_3[4] = 1'b0;
+end 
+// address_3[ 3 ]
+initial
+begin
+	address_3[3] = 1'b0;
+end 
+// address_3[ 2 ]
+initial
+begin
+	address_3[2] = 1'b0;
+end 
+// address_3[ 1 ]
+initial
+begin
+	address_3[1] = 1'b0;
+end 
+// address_3[ 0 ]
+initial
+begin
+	address_3[0] = 1'b0;
+end 
+// data_3[ 7 ]
+initial
+begin
+	data_3[7] = 1'b0;
+end 
+// data_3[ 6 ]
+initial
+begin
+	data_3[6] = 1'b0;
+end 
+// data_3[ 5 ]
+initial
+begin
+	data_3[5] = 1'b0;
+end 
+// data_3[ 4 ]
+initial
+begin
+	data_3[4] = 1'b0;
+end 
+// data_3[ 3 ]
+initial
+begin
+	data_3[3] = 1'b0;
+end 
+// data_3[ 2 ]
+initial
+begin
+	data_3[2] = 1'b0;
+end 
+// data_3[ 1 ]
+initial
+begin
+	data_3[1] = 1'b0;
+end 
+// data_3[ 0 ]
+initial
+begin
+	data_3[0] = 1'b0;
+end 
+
+// request_3
+initial
+begin
+	request_3 = 1'b0;
+end 
+endmodule
+

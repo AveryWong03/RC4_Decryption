@@ -1,0 +1,145 @@
+// Copyright (C) 2017  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Intel and sold by Intel or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "06/15/2024 16:35:08"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          fsm_key_control
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module fsm_key_control_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg clk;
+reg end_3_1;
+reg end_3_2;
+reg end_3_3;
+reg end_3_4;
+reg update_request_1;
+reg update_request_2;
+reg update_request_3;
+reg update_request_4;
+// wires                                               
+wire [23:0] key;
+wire [23:0] key_1;
+wire [23:0] key_2;
+wire [23:0] key_3;
+wire [23:0] key_4;
+wire led0;
+wire led9;
+wire start_loop_1;
+wire start_loop_2;
+wire start_loop_3;
+wire start_loop_4;
+
+// assign statements (if any)                          
+fsm_key_control i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.end_3_1(end_3_1),
+	.end_3_2(end_3_2),
+	.end_3_3(end_3_3),
+	.end_3_4(end_3_4),
+	.key(key),
+	.key_1(key_1),
+	.key_2(key_2),
+	.key_3(key_3),
+	.key_4(key_4),
+	.led0(led0),
+	.led9(led9),
+	.start_loop_1(start_loop_1),
+	.start_loop_2(start_loop_2),
+	.start_loop_3(start_loop_3),
+	.start_loop_4(start_loop_4),
+	.update_request_1(update_request_1),
+	.update_request_2(update_request_2),
+	.update_request_3(update_request_3),
+	.update_request_4(update_request_4)
+);
+initial 
+begin 
+#560000 $finish;
+end 
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #10000 1'b1;
+	#10000;
+end 
+
+// end_3_1
+initial
+begin
+	end_3_1 = 1'b0;
+	end_3_1 = #380000 1'b1;
+end 
+
+// end_3_2
+initial
+begin
+	end_3_2 = 1'b0;
+end 
+
+// update_request_1
+initial
+begin
+	update_request_1 = 1'b0;
+	update_request_1 = #20000 1'b1;
+	update_request_1 = #360000 1'b0;
+end 
+
+// update_request_2
+initial
+begin
+	update_request_2 = 1'b0;
+	update_request_2 = #20000 1'b1;
+	update_request_2 = #360000 1'b0;
+end 
+
+// end_3_3
+initial
+begin
+	end_3_3 = 1'b0;
+end 
+
+// end_3_4
+initial
+begin
+	end_3_4 = 1'b0;
+end 
+
+// update_request_3
+initial
+begin
+	update_request_3 = 1'b0;
+end 
+
+// update_request_4
+initial
+begin
+	update_request_4 = 1'b0;
+end 
+endmodule
+

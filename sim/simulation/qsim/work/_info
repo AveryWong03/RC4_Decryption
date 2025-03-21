@@ -1,0 +1,220 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Main Folder/School/Year 3/CPEN311/avery_wong_47032230_Lab_4/sim/simulation/qsim
+vfsm_key_control
+Z1 !s110 1718494511
+!i10b 1
+!s100 4=g0[Ge@EcDO@=gT]IPOe2
+IGlPkcK31C_[jTG]`NXA4k3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1718494510
+Z3 8wvf_simulations.vo
+Z4 Fwvf_simulations.vo
+Z5 L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1718494511.000000
+Z8 !s107 wvf_simulations.vo|
+Z9 !s90 -work|work|wvf_simulations.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vfsm_key_control_vlg_vec_tst
+R1
+!i10b 1
+!s100 EEF`O@>Lk2[ha8T0SD@Sm1
+IgkAnWO[iPcH88iL_;RZOz0
+R2
+R0
+w1718494509
+8fsm_key_control.vwf.vt
+Ffsm_key_control.vwf.vt
+Z12 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 fsm_key_control.vwf.vt|
+!s90 -work|work|fsm_key_control.vwf.vt|
+!i113 1
+R10
+R11
+vfsm_loop_1
+!s110 1718490206
+!i10b 1
+!s100 >Z5`D8RV`I;R:Rn??0^hH2
+I?XRX?N]fRVbagjJok>VGa1
+R2
+R0
+w1718490206
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z13 !s108 1718490206.000000
+R8
+R9
+!i113 1
+R10
+R11
+vfsm_loop_1_vlg_vec_tst
+!s110 1718490207
+!i10b 1
+!s100 64L79NPEHBBWC0=bPiIbQ2
+IO]ImPeXgL7zS<iQbU1U8h3
+R2
+R0
+w1718490204
+8fsm_loop_1.vwf.vt
+Ffsm_loop_1.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R13
+!s107 fsm_loop_1.vwf.vt|
+!s90 -work|work|fsm_loop_1.vwf.vt|
+!i113 1
+R10
+R11
+vfsm_loop_2
+Z14 !s110 1718491416
+!i10b 1
+!s100 6_CMnSUm7ol@5o=ET?ZWL2
+IW1gA6Kj7CalRDcn1eP[[92
+R2
+R0
+w1718491415
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z15 !s108 1718491416.000000
+R8
+R9
+!i113 1
+R10
+R11
+vfsm_loop_2_vlg_vec_tst
+R14
+!i10b 1
+!s100 VFOF:JIFPJ``6<4zQ@T:g0
+I8c:`3D0jlD9V2<A0EHbHG3
+R2
+R0
+w1718491414
+8fsm_loop_2.vwf.vt
+Ffsm_loop_2.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R15
+!s107 fsm_loop_2.vwf.vt|
+!s90 -work|work|fsm_loop_2.vwf.vt|
+!i113 1
+R10
+R11
+vfsm_loop_3
+Z16 !s110 1718493002
+!i10b 1
+!s100 YOI40VI9Xb<iCGf5M]KZI2
+IHDf7bOn3?OAhV@[cX_0QB2
+R2
+R0
+w1718493001
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1718493002.000000
+R8
+R9
+!i113 1
+R10
+R11
+vfsm_loop_3_vlg_vec_tst
+R16
+!i10b 1
+!s100 TMba=n<6[DT:SiS87?QZZ2
+InEQP^K2<EQ3R_>HM[6jAF1
+R2
+R0
+w1718492999
+8fsm_loop_3.vwf.vt
+Ffsm_loop_3.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R17
+!s107 fsm_loop_3.vwf.vt|
+!s90 -work|work|fsm_loop_3.vwf.vt|
+!i113 1
+R10
+R11
+vfsm_mem
+Z18 !s110 1718495648
+!i10b 1
+!s100 DV==C0kNb6c=f2L<GD=Rl2
+I^:2anMZh__0ZVE5n4WESB1
+R2
+R0
+w1718495647
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z19 !s108 1718495648.000000
+R8
+R9
+!i113 1
+R10
+R11
+vfsm_mem_vlg_vec_tst
+R18
+!i10b 1
+!s100 _kZNHfFH9FUjWH`PNZCHX3
+INe2Yj9]5C[CDSV>^CRBbL2
+R2
+R0
+w1718495645
+8fsm_mem.vwf.vt
+Ffsm_mem.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R19
+!s107 fsm_mem.vwf.vt|
+!s90 -work|work|fsm_mem.vwf.vt|
+!i113 1
+R10
+R11
